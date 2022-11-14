@@ -1,4 +1,4 @@
-package pl.slowacki.my_notes.dto;
+package pl.slowacki.my_notes.model;
 
 import java.util.Objects;
 

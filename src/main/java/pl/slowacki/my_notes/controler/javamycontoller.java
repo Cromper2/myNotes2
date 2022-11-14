@@ -1,7 +1,7 @@
 package pl.slowacki.my_notes.controler;
 
 import org.springframework.web.bind.annotation.*;
-import pl.slowacki.my_notes.dto.User;
+import pl.slowacki.my_notes.model.User;
 
 import java.util.HashMap;
 import java.util.Map;
