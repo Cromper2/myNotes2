@@ -1,4 +1,7 @@
-package pl.slowacki.my_notes.model;
+package pl.slowacki.my_notes.dto;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import pl.slowacki.my_notes.model.Status;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -10,6 +13,7 @@ public class NoteDetails {
     private final String userName;
     private final Status status;
     private final int weight;
+    @JsonFormat(pattern = "yyyy-MM-dd HH-mm-ss", timezone = "UTC")
     private final LocalDateTime dueDate;
 
     public NoteDetails(Long id, String description, String userName, Status status, int weight, LocalDateTime dueDate) {

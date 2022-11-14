@@ -3,7 +3,7 @@ package pl.slowacki.my_notes.mapper;
 import org.springframework.stereotype.Component;
 import pl.slowacki.my_notes.dto.CreateNoteDto;
 import pl.slowacki.my_notes.model.Note;
-import pl.slowacki.my_notes.model.NoteDetails;
+import pl.slowacki.my_notes.dto.NoteDetails;
 import pl.slowacki.my_notes.model.Status;
 
 @Component

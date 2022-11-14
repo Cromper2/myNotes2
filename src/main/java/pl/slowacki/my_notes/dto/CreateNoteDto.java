@@ -1,5 +1,6 @@
 package pl.slowacki.my_notes.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import pl.slowacki.my_notes.model.Status;
 
 import java.time.LocalDateTime;
@@ -11,6 +12,7 @@ public class CreateNoteDto {
     private String userName;
     private Status status;
     private int weight;
+    @JsonFormat(pattern = "yyyy-MM-dd HH-mm-ss", timezone = "UTC")
     private LocalDateTime dueDate;
 
     @Override
