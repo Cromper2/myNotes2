@@ -19,4 +19,8 @@ public class NoteRepository {
         return note;
 
     }
+
+    public Map<Long, Note> getNoteDB() {
+        return noteDB;
+    }
 }

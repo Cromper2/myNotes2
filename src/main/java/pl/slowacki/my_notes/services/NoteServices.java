@@ -25,4 +25,8 @@ public class NoteServices {
         note = noteRepository.save(note);
         return noteMapper.toDetails(note);
     }
+
+    //public NoteDetails readNote(NoteRepository noteRepository){
+    //    return
+    //}
 }
